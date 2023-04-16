@@ -1,10 +1,12 @@
-inoremap jk <Esc>
+inoremap jk <ESC>
+syntax on
 set number
+set noswapfile
 set hlsearch
 set ignorecase
 set incsearch
-set tabstop=4 
-syntax on
 colorscheme industry
-set noswapfile
+set tabstop=4
 set expandtab
+set softtabstop=4
+set cursorline
