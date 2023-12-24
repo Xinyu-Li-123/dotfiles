@@ -1,3 +1,6 @@
+# adapted from
+# - Post: https://danielmiessler.com/p/vim/
+
 inoremap jk <ESC>
 syntax on
 set number
