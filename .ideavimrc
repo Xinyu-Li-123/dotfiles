@@ -1,0 +1,11 @@
+" config for the IdeaVim plugin of IntelliJ Idea
+
+inoremap jk <ESC>
+syntax on
+set number
+set noswapfile
+set hlsearch
+set ignorecase
+set incsearch
+
+map gh <Action>(QuickJavaDoc)
