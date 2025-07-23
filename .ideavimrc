@@ -7,5 +7,16 @@ set noswapfile
 set hlsearch
 set ignorecase
 set incsearch
+set cursorline
 
+
+let mapleader = " "
+" You can find the name of specific idea action you just performed by toggling
+" the `IdeaVim: track action IDs` option. 
+" See: https://github.com/JetBrains/ideavim?tab=readme-ov-file#finding-action-ids
+"
+map <C-/> <Action>(ActivateTerminalToolWindow)
+map <C-.> <Action>(HideActiveWindow)
 map gh <Action>(QuickJavaDoc)
+map gr <Action>(FindUsages)
+map <leader>gi <Action>(GotoImplementation)
