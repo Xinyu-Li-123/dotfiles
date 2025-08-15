@@ -1,5 +1,3 @@
-" config for the IdeaVim plugin of IntelliJ Idea
-
 inoremap jk <ESC>
 syntax on
 set number
@@ -20,3 +18,4 @@ map <C-.> <Action>(HideActiveWindow)
 map gh <Action>(QuickJavaDoc)
 map gr <Action>(FindUsages)
 map <leader>gi <Action>(GotoImplementation)
+map <leader>gs <Action>(GotoSuperMethod)
