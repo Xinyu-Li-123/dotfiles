@@ -1,5 +1,5 @@
-# adapted from
-# - Post: https://danielmiessler.com/p/vim/
+" adapted from
+" - Post: https://danielmiessler.com/p/vim/
 
 inoremap jk <ESC>
 syntax on

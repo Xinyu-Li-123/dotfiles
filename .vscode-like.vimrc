@@ -1,6 +1,6 @@
-# adapted from 
-# - Github repo: https://github.com/ibnYusrat/vimcode
-# - Post: https://danielmiessler.com/p/vim/
+" adapted from 
+" - Github repo: https://github.com/ibnYusrat/vimcode
+" - Post: https://danielmiessler.com/p/vim/
 
 call plug#begin()
 Plug 'mattn/emmet-vim'
