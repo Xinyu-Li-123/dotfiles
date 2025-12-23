@@ -1,0 +1,48 @@
+# Pass this file to [tmuxgen](https://github.com/Xinyu-Li-123/tmuxgen#)
+# to generate daily_tmux.sh
+[session]
+name = "my_session"
+default_dir = "${HOME}/workspace"
+attach = true
+focus_window = "nv-ws"
+
+[[windows]]
+name = "nv-ws"
+dir = "."
+
+[[windows.actions]]
+type = "send"
+text = "nv ."
+enter = true
+
+[[windows.actions]]
+type = "sleep"
+ms = 80
+
+[[windows.actions]]
+type = "keys"
+seq = ["Space", "e", "Space", "q", "s"]
+
+[[windows.actions]]
+type = "sleep"
+ms = 700
+
+[[windows.actions]]
+type = "keys"
+seq = ["Space", "e"]
+
+[[windows]]
+name = "ws"
+dir = "."
+
+[[windows]]
+name = "cmu"
+dir = "/home/eiger/CMU/2025_Fall"
+
+[[windows]]
+name = "blog"
+dir = "${BLOG_HOME}"
+[[windows.actions]]
+type = "send"
+text = "nv ."
+enter = true
