@@ -1,0 +1,6 @@
+!# block wikipedia donation popup
+wikipedia.org##div#frb-inline
+wikipedia.org##div#frb-nag
+
+!# block outlook email ad panel
+outlook.live.com##.GssDD
