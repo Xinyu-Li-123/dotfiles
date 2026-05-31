@@ -2,4 +2,4 @@
 alias xclipc='xclip -selection clipboard'
 alias nv=nvim
 alias cls=clear
-alias work=~/shell_script/scripts/daily_tmux.sh
+alias work="$HOME/shell_script/scripts/work.py"

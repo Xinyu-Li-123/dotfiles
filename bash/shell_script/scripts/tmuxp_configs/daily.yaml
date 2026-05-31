@@ -1,0 +1,25 @@
+session_name: daily-sess
+windows:
+  - focus: 'true'
+    layout: c03d,178x44,0,0,0
+    options:
+      automatic-rename: false
+    suppress_history: false
+    panes:
+      - focus: 'true'
+        shell_command:
+          - nvim
+          - cmd: ' qs'
+    start_directory: /home/eiger/workspace
+    window_name: nv-ws
+  - layout: c03f,178x44,0,0,2
+    options:
+      automatic-rename: false
+    suppress_history: false
+    panes:
+      - focus: 'true'
+        shell_command:
+          - nvim
+          - cmd: ' qs'
+    start_directory: /home/eiger/Blog/myblog
+    window_name: blog
